@@ -20,7 +20,6 @@ These are relative to font-size of the parent container. By default the font-siz
 These are just like ems but instead of the parent's font-size, it looks at the font-size of root element which is html element.
 
 ## fluid
-- If we give a child div 50% width then its width will be 50% of the width of the parent div.
-- If its a **block element** then it will look at its parent div width.
-- If its a **inline element** then it will look at the font-size of the parent div.
-- Always relative to the parent element.
+- Percentages are always relative to the parent container.
+- If it's a **block element** then its width will be relative to its parent. 
+- If it's an **inline element** then we can set its font-size fluid that introspects on the font-size of the parent element.
