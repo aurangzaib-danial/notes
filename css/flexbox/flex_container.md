@@ -32,14 +32,3 @@ Also, all of the above discussion is true for column direction. When the height 
   flex-wrap: wrap;
 }
 ```
-
-## justify-content
-This property allows us to manage the position of flex items along the main axis. 
-
-```css
-.container {
-  justify-content: center;
-  /* center, flex-start, flex-end, space-around, space-between */
-}
-```
-Space-around and space-between equally distributes space between flex items without us having to calculate right margin or padding values.
