@@ -1,4 +1,4 @@
-# Getting Started
+# Flex container
 The most basic thing to get started with flexbox is to set a flex container.
 
 ```css
@@ -43,13 +43,3 @@ This property allows us to manage the position of flex items along the main axis
 }
 ```
 Space-around and space-between equally distributes space between flex items without us having to calculate right margin or padding values.
-
-## Auto margin for flex items
-Margin property works really good on flex items.
-
-```css
-.item-1 {
-  margin-right: auto;
-  /* this will intelligently use up all the space, keep item-1 in the left corner and push all the items to the right. We can specify auto margin on any item */
-}
-```
