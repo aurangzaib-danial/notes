@@ -26,7 +26,7 @@ Margin property works really good on flex items.
 }
 ```
 
-## Flex grow
+## flex-grow
 This property allows us to change the size of flex-items. For example, by default flex-items do not take up the whole line of the container but only grow as much as the content. However, we can change that and make use the entire width of the container.
 
 ```css
@@ -46,3 +46,38 @@ This property allows us to change the size of flex-items. For example, by defaul
   */
 }
 ```
+
+## flex-basis
+### Problem
+The value of `flex-grow: 1` sets the width of the items according to their content. If the content is more then the width of item will be more as well. It does not distribute the width of the container evenly between the items if the content size of the items is different.
+### Solution
+Flex basis allows us to set equal width for all items. When the space in the container runs out then the items automatically move to next line if `flex-wrap: wrap` is used.
+
+```css
+.item {
+  flex-basis: 200px;
+}
+```
+
+## flex-shrink
+This is a less commonly used feature of flexbox. It is the opposite of flexbox-grow and allows us to shrink the size of the items.
+
+## Shorthand for flex grow, basis and shrink
+```css
+.item {
+  /* flex: grow, basis, shrink; basis and shrink are optional */
+  
+  flex: 1; 
+  /* 
+  this one will set basis as zero and the items will not wrap 
+  use flex-grow: 1; if you do not want to set flex-basis
+  */ 
+}
+```
+
+
+
+
+
+
+
