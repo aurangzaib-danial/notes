@@ -21,3 +21,14 @@ The default direction of flex items is along the **main axis** as a row. We can 
   */
 }
 ```
+
+## Flex wrap
+By default if the size of the container is less than the flex items, the flex items start to overflow the container. This is because by default the flex items are displayed on a single line. We can tell the browser to start wrapping the flex items on multi-lines when the space in the container runs out.
+
+Also, all of the above discussion is true for column direction. When the height of the container runs out then the browser will create multiple columns but will not let flex items to break out of the height of the container.
+
+```css
+.container {
+  flex-wrap: wrap;
+}
+```
