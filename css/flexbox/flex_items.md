@@ -69,7 +69,7 @@ This is a less commonly used feature of flexbox. It is the opposite of flexbox-g
   
   flex: 1; 
   /* 
-  this one will set basis as zero and the items will not wrap 
+  this one will set basis as zero, items will have equal width and they will not wrap
   use flex-grow: 1; if you do not want to set flex-basis
   */ 
 }
