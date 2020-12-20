@@ -25,3 +25,24 @@ Margin property works really good on flex items.
   */
 }
 ```
+
+## Flex grow
+This property allows us to change the size of flex-items. For example, by default flex-items do not take up the whole line of the container but only grow as much as the content. However, we can change that and make use the entire width of the container.
+
+```css
+.item {
+  flex-grow: 1; 
+  /* 
+  The value '1', tells the items to take up the entire space of the container. 
+  It equally divides width of the container between all of its items. 
+  */
+}
+
+.item-3 {
+  flex-grow: 2;
+  /*
+  This will make item-2 get two times the size of other items.
+  This is useful when we have a two-column layout, one column for main-content and other for aside column.
+  */
+}
+```
