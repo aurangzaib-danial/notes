@@ -26,3 +26,12 @@ int whole_pi = (int) pi;
 
 ## Scope
 - Only limited to methods. No fancy leakage.
+
+## Class constants
+```java
+public class Greeting {
+  private static final double pi = 3.14;
+  // use this variable anywhere inside the class
+}
+
+```

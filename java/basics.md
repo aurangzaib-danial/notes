@@ -2,7 +2,7 @@
 Basic pillars of a language
 1. Sequencing (semi-colon)
 2. Control flow (logic)
-3. Iteration
+3. Iteration and loops
 
 ## Class
 - All the classes require a main method for the code to run.
