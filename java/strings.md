@@ -18,6 +18,8 @@ firstTwoLetters = name.substring(0, 2);
 string1 == string2 // compares objects id's and not the content
 
 string1.equals(string2) // compares strings content
+
+ClassName.equals(string1, string2) // We can use static methd 
 ```
 
 ## Lexographical (alphabetical order) comparison

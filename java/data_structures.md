@@ -6,9 +6,20 @@
 ```java
 String [] students = {"Sunny", "Ali", "Hamza"};
 int [] evens = {2, 4, 6};
+
+
+// However, if the an array variable is defined but not initalized we need to do following
+String [] students;
+students = new String [] {"first", "second"};
+
 // properties
 students.length //=> 3
 
-// create a fixed length array with dummy values
+// set a length for an array
 int[] evens = new int[10];
+
+// Looping
+for (String item : array) {
+  System.out.println(item);
+}
 ```

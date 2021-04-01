@@ -1,4 +1,4 @@
-## Objects
+# Objects
 ```java
 public class Person {
   // class is a factory
@@ -21,5 +21,12 @@ public class Person {
   public greet() {
     // instance method
   }
+}
+```
+
+## Abstract class
+```java
+public abstract class  ApplicationController {
+  // abstract class is only used as a parent and we do not need instances of it.
 }
 ```

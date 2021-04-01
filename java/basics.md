@@ -15,3 +15,10 @@ Basic pillars of a language
 ```java
 final String GREETING = "Hola!";
 ```
+
+## Exiting programs
+```java
+return; // inside main method
+System.exit(0); // from anywhere
+// or the code completely executes
+```
