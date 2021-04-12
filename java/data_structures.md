@@ -22,4 +22,8 @@ int[] evens = new int[10];
 for (String item : array) {
   System.out.println(item);
 }
+
+// multi-dimensional arrays
+int [][] collection = {{1,2,3}, {4,5,6}};
+// just keep adding square brackets [] for more hierarchy 
 ```
