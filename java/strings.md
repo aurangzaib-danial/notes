@@ -6,6 +6,8 @@ name.length();
 
 // getting a character
 char firstLetter = name.charAt(0);
+// char variable requires single quote
+char letter = 'a';
 
 // silicing a part from string
 firstTwoLetters = name.substring(0, 2);

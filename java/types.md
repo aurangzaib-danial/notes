@@ -1,4 +1,4 @@
-# Variables
+# Types
 
 ## Main types
 1. int
@@ -8,6 +8,11 @@
 5. boolean
 6. String
 7. long (large integers)
+
+## problem with float
+```java
+float pie = 3.14f // we need to write letter 'f' for floats. This is a problem in Java, it gives an error without 'f'.
+```
 
 ## Declaration
 ```java
