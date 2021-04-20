@@ -12,8 +12,9 @@ Multi-line comment
 java doc comment
 
 following are tags for java doc for main headings
-@return
-@param
+@return description of return
+@param param_name description of param
+@param param_2_name description of param
 */
 ```
 ## java doc comment
