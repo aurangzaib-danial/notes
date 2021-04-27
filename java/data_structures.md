@@ -35,7 +35,7 @@ Arrays have a fixed length in Java. To overcome this issue, we use lists.
 import java.util.ArrayList;
 import java.util.List;
 
-List<String> students = new ArrayList<>;
+List<String> students = new ArrayList<>();
 students.add("Sunny");
 students.add("Mark");
 students.get(index); // we can use index as well as the value itself

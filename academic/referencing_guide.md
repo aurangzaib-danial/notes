@@ -15,7 +15,7 @@ For multiple authors.
 Rutherford et al. (2018) suggest that
 
 ## Referencing a source multiple times in text
-(Rana & Bhatti, ibid)
+(Rana and Bhatti, ibid)
 
 
 ## Examples
